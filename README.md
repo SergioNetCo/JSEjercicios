@@ -37,4 +37,4 @@ número menor.
 que tiene el texto
 19. Escribe una página web que te pregunte por un texto en minúsculas y se lo muestres
 en mayúsculas.
-20. Crea una página que escribas un texto y te lo muestre al ravés que pasa  asap euq
+20. Crea una página que escribas un texto y te lo muestre al ravés que pasa --> asap euq
