@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 18</title>
+    <script>
+        //Creamos la variable de las vocales
+        var vocales = ["a", "e", "i", "o", "u"]
+        //CountVowel cuenta las vocales de la str que se escriba despues
+        function countVowel(str) {
+        // Aqui creamos el almacen de las vocales que se contaran
+        let contarVocal = 0;
+        //Se crea un ciclo que para las letras del string (lo pone en minusculas) y cada vez que haya una variable 'vocal' se sumen.
+            for (let letra of str.toLowerCase()) {
+                if (vocales.includes(letra)) {
+                    contarVocal++;
+                }
+            }
+        //Aqui devuelve la funcion contarVocal en numeros
+                return contarVocal
+        }
+        //Preguntamos al usuario que escriba una palabra
+        var palabra = prompt('Escribe una palabra: ');
+        //Le decimos que cuente las vocales de la palabra escrita a traves de la variable resultado y la mostramos
+        var resultado = countVowel(palabra);
+        alert('La palabra tiene ' + resultado + ' vocales');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
